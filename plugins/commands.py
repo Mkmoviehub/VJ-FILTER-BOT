@@ -294,10 +294,10 @@ async def start(client, message):
                     )
                 if STREAM_MODE == True:
                     button = [[
-                        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                        InlineKeyboardButton('💬 ℝ𝔼ℚ𝕌𝔼𝕊𝕋 𝕌ℝ 𝕄𝕆𝕍𝕀𝔼 ℍ𝔼ℝ𝔼 💬', url=f'https://t.me/{SUPPORT_CHAT}'),
+                        InlineKeyboardButton('🎁 𝕁𝕆𝕀ℕ 𝔽𝕆ℝ 𝕄𝕆ℝ𝔼 𝕄𝕆𝕍𝕀𝔼𝕊 🎁', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url=OWNER_LNK)
+                        InlineKeyboardButton('💥 🄻🄰🅃🄴🅂🅃 🄼🄾🅅🄸🄴🅂 🄷🄴🅁🄴 💥', url=OWNER_LNK)
                     ],[
                         InlineKeyboardButton("🚀 Fast Download 🚀", url=download),
                         InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
@@ -306,10 +306,10 @@ async def start(client, message):
                     ]]
                 else:
                     button = [[
-                        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                        InlineKeyboardButton('💬 ℝ𝔼ℚ𝕌𝔼𝕊𝕋 𝕌ℝ 𝕄𝕆𝕍𝕀𝔼 ℍ𝔼ℝ𝔼 💬', url=f'https://t.me/{SUPPORT_CHAT}'),
+                        InlineKeyboardButton('🎁 𝕁𝕆𝕀ℕ 𝔽𝕆ℝ 𝕄𝕆ℝ𝔼 𝕄𝕆𝕍𝕀𝔼𝕊 🎁', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url=OWNER_LNK)
+                        InlineKeyboardButton('💥 🄻🄰🅃🄴🅂🅃 🄼🄾🅅🄸🄴🅂 🄷🄴🅁🄴 💥', url=OWNER_LNK)
                     ]]
                 msg = await client.send_cached_media(
                     chat_id=message.from_user.id,
@@ -403,10 +403,10 @@ async def start(client, message):
                     )
                 if STREAM_MODE == True:
                     button = [[
-                        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                        InlineKeyboardButton('💬 ℝ𝔼ℚ𝕌𝔼𝕊𝕋 𝕌ℝ 𝕄𝕆𝕍𝕀𝔼 ℍ𝔼ℝ𝔼 💬', url=f'https://t.me/{SUPPORT_CHAT}'),
+                        InlineKeyboardButton('🎁 𝕁𝕆𝕀ℕ 𝔽𝕆ℝ 𝕄𝕆ℝ𝔼 𝕄𝕆𝕍𝕀𝔼𝕊 🎁', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url=OWNER_LNK)
+                        InlineKeyboardButton(' 💥 🄻🄰🅃🄴🅂🅃 🄼🄾🅅🄸🄴🅂 🄷🄴🅁🄴 💥', url=OWNER_LNK)
                     ],[
                         InlineKeyboardButton("🚀 Fast Download 🚀", url=download),
                         InlineKeyboardButton('🖥️ Watch online 🖥️', url=stream)
@@ -415,10 +415,10 @@ async def start(client, message):
                     ]]
                 else:
                     button = [[
-                        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                        InlineKeyboardButton('💬 ℝ𝔼ℚ𝕌𝔼𝕊𝕋 𝕌ℝ 𝕄𝕆𝕍𝕀𝔼 ℍ𝔼ℝ𝔼 💬', url=f'https://t.me/{SUPPORT_CHAT}'),
+                        InlineKeyboardButton('🎁 𝕁𝕆𝕀ℕ 𝔽𝕆ℝ 𝕄𝕆ℝ𝔼 𝕄𝕆𝕍𝕀𝔼𝕊 🎁', url=CHNL_LNK)
                     ],[
-                        InlineKeyboardButton('𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥', url=OWNER_LNK)
+                        InlineKeyboardButton('💥 🄻🄰🅃🄴🅂🅃 🄼🄾🅅🄸🄴🅂 🄷🄴🅁🄴 💥', url=OWNER_LNK)
                     ]]
                 try:
                     p = await msg.copy(message.chat.id, caption=f_caption, protect_content=True if protect == "/pbatch" else False, reply_markup=InlineKeyboardMarkup(button))
@@ -545,10 +545,10 @@ async def start(client, message):
                     )
                     return
             button = [[
-                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                InlineKeyboardButton('💬 ℝ𝔼ℚ𝕌𝔼𝕊𝕋 𝕌ℝ 𝕄𝕆𝕍𝕀𝔼 ℍ𝔼ℝ𝔼 💬', url=f'https://t.me/{SUPPORT_CHAT}'),
+                InlineKeyboardButton('🎁 𝕁𝕆𝕀ℕ 𝔽𝕆ℝ 𝕄𝕆ℝ𝔼 𝕄𝕆𝕍𝕀𝔼𝕊 🎁', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url=OWNER_LNK)
+                InlineKeyboardButton("💥 🄻🄰🅃🄴🅂🅃 🄼🄾🅅🄸🄴🅂 🄷🄴🅁🄴 💥", url=OWNER_LNK)
             ]]
             if STREAM_MODE == True:
                 button.append([InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}')])
@@ -607,10 +607,10 @@ async def start(client, message):
                     )
                     return
             button = [[
-                InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-                InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+                InlineKeyboardButton('💬 ℝ𝔼ℚ𝕌𝔼𝕊𝕋 𝕌ℝ 𝕄𝕆𝕍𝕀𝔼 ℍ𝔼ℝ𝔼 💬', url=f'https://t.me/{SUPPORT_CHAT}'),
+                InlineKeyboardButton('🎁 𝕁𝕆𝕀ℕ 𝔽𝕆ℝ 𝕄𝕆ℝ𝔼 𝕄𝕆𝕍𝕀𝔼𝕊 🎁', url=CHNL_LNK)
             ],[
-                InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url=OWNER_LNK)
+                InlineKeyboardButton("💥 🄻🄰🅃🄴🅂🅃 🄼🄾🅅🄸🄴🅂 🄷🄴🅁🄴 💥", url=OWNER_LNK)
             ]]
             if STREAM_MODE == True:
                 button.append([InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}')])
@@ -671,10 +671,10 @@ async def start(client, message):
             )
             return
     button = [[
-        InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=f'https://t.me/{SUPPORT_CHAT}'),
-        InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
+        InlineKeyboardButton('💬 ℝ𝔼ℚ𝕌𝔼𝕊𝕋 𝕌ℝ 𝕄𝕆𝕍𝕀𝔼 ℍ𝔼ℝ𝔼 💬', url=f'https://t.me/{SUPPORT_CHAT}'),
+        InlineKeyboardButton('🎁 𝕁𝕆𝕀ℕ 𝔽𝕆ℝ 𝕄𝕆ℝ𝔼 𝕄𝕆𝕍𝕀𝔼𝕊 🎁', url=CHNL_LNK)
     ],[
-        InlineKeyboardButton("𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥", url=OWNER_LNK)
+        InlineKeyboardButton("💥 🄻🄰🅃🄴🅂🅃 🄼🄾🅅🄸🄴🅂 🄷🄴🅁🄴 💥", url=OWNER_LNK)
     ]]
     if STREAM_MODE == True:
         button.append([InlineKeyboardButton('🚀 Fast Download / Watch Online🖥️', callback_data=f'generate_stream_link:{file_id}')])

@@ -166,7 +166,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True 
 else:
     ON_HEROKU = False 
-URL = environ.get("URL", "[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=vj-filter-bot&repository=Mkmoviehub%2FVJ-FILTER-BOT&branch=Tech_VJ&builder=dockerfile&instance_type=free&env%5BBOT_TOKEN%5D=8057832362%3AAAFzncOj7RvpQCTUb8nmfiNVT9s-o8PwIuI&env%5BURL%5D=mass-ellette-mkmovieshub-799c811b.koyeb.app%2F&ports=8080%3Bhttp%3B%2F&hc_protocol%5B8080%5D=tcp&hc_grace_period%5B8080%5D=5&hc_interval%5B8080%5D=30&hc_restart_limit%5B8080%5D=3&hc_timeout%5B8080%5D=5&hc_path%5B8080%5D=%2F&hc_method%5B8080%5D=get)")
+URL = environ.get("URL", "mass-ellette-mkmovieshub-799c811b.koyeb.app/")
 
 
 # Rename Info : If True Then Bot Rename File Else Not

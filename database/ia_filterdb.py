@@ -7,6 +7,7 @@ from struct import pack
 import re
 import base64
 import json
+from datetime import datetime
 from pyrogram.file_id import FileId
 from pymongo import MongoClient
 from pymongo.errors import DuplicateKeyError
@@ -123,9 +124,12 @@ async def get_search_results(chat_id, query, file_type=None, max_results=10, off
 
     if MULTIPLE_DATABASE == True:
         cursor1 = col.find(filter)
+        cursor1.sort('$natural', -1)
         cursor2 = sec_col.find(filter)
+        cursor2.sort('$natural', -1)
     else:
         cursor = col.find(filter)
+        cursor.sort('$natural', -1)
         
     if MULTIPLE_DATABASE == True:
         files1 = [file for file in cursor1]
